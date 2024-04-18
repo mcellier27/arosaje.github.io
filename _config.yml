@@ -1,34 +1,77 @@
-baseurl: "/"
-title: 'Planty'
-init_js: js/main.js
-page_load_js: js/page_load.js
-page_unload_js: js/page_unload.js
-params:
-  favicon: 'images/favicon.png'
-  logo_dark: 'images/logo.svg'
-  logo_light: 'images/logo-white.svg'
-  hamburger_background_image: /images/leaf-light-grey.svg
-  bg_image_primary: /images/header.jpg
-  bg_image_primary_opacity: 60
-  bg_image_secondary: /images/leaf-light-grey.svg
-  bg_image_product: /images/leaf.svg
-  snipcart_api_key: ''
-  footer_text: 'Copyright 2021 Planty Inc. All rights reserved.'
-  palette: green
-  main_menu:
-    - title: Store
-      url: /store
-      style: link
-    - title: About
-      url: /about
-      style: link
-    - title: FAQ
-      url: /faq
-      style: link
-sass:
-  input_file: sass/main.scss.njk
-  output_file: assets/css/main.css
-  outputStyle: nested
-  precision: 10
-templates:
-  body_class: "{{ page.layout }}-template palette-{{ site.params.palette }}"
+/* Styles généraux */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; /* blanc */
+    color: #333333; /* gris foncé pour le texte */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Titre */
+h1 {
+    color: #008000; /* vert */
+    text-align: center;
+}
+
+/* Sous-titre */
+h2 {
+    color: #008000; /* vert */
+    text-align: center;
+}
+
+/* Description de l'application */
+p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+/* Lien de téléchargement */
+.download-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #008000; /* vert */
+    color: #ffffff; /* blanc */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.download-link:hover {
+    background-color: #006400; /* vert foncé */
+}
+
+/* Image de l'application */
+.app-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: #008000; /* vert */
+    color: #ffffff; /* blanc */
+}
+
+/* Liens dans le pied de page */
+footer a {
+    color: #ffffff; /* blanc */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #cccccc; /* gris clair */
+}
