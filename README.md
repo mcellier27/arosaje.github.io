@@ -13,7 +13,7 @@ Nous vous remercions d'avoir choisi l'application arosa-je pour répondre à vos
 
 *Lien de téléchargement*
 
-**Ci-dessous le lien qui vous permettra de télécharger l'application Arosa-je sur votre android.
+*Ci-dessous le lien qui vous permettra de télécharger l'application Arosa-je sur votre android.*
 
 
 
