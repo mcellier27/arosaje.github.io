@@ -11,11 +11,10 @@ Nous avons fait en sorte que l'application réponde au maximum aux demandes du c
 
 Nous vous remercions d'avoir choisi l'application arosa-je pour répondre à vos attentes et sommes ouvert à tous retours qui permerttrons d'améliorer votre expérience utilisateur.
 
+
+**Ci-dessous le lien qui vous permettra de télécharger l'application Arosa-je sur votre android.**
+
 *Lien de téléchargement*
-
-*Ci-dessous le lien qui vous permettra de télécharger l'application Arosa-je sur votre android.*
-
-
 
 
 
